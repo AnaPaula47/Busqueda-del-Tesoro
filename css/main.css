@@ -1,9 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=New+Amsterdam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=DM+Serif+Text:ital@0;1&family=Grey+Qo&family=New+Amsterdam&display=swap');
 
 body {
   background-image:url(../img/pngtree-medieval-castle-game-scene-picture-image_2424800.jpg);
   background-size: cover;
-  color: #a00b0b;
   padding: 0;
   margin: 0;
   height: 100vh;
@@ -13,13 +12,15 @@ body {
    flex-direction:column;
    cursor: url(../img/11zon_brujula.cur), auto;
 }
+
 h1{
-    font-family: "DM Serif Text", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
+  font-family: "Bodoni Moda SC", serif;
+  color: rgb(255, 251, 13);
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;	
 }
+  
 
 img {
   -webkit-user-select: none;
