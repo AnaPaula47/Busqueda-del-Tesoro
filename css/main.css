@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=New+Amsterdam&display=swap');
 
 body {
   background-image:url(../img/pngtree-medieval-castle-game-scene-picture-image_2424800.jpg);
@@ -10,6 +11,14 @@ body {
   justify-content: center;
   align-items: center;
    flex-direction:column;
+   cursor: url(../img/11zon_brujula.cur), auto;
+}
+h1{
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
 }
 
 img {
