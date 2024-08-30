@@ -1,16 +1,16 @@
-// generate a random Number
+// Genera un numero random
 let getRandomNumber = size => {
-  return Math.floor(Math.random() * size);
+  return Math.floor(Math.random() * size);//es el límite superior (no inclusivo) del rango del número aleatorio
 }
 
-// get the Distance of two points
+// Ingreso de la distancia de un punto a otro
 let getDistance = (e, target) => {
   let diffX = e.offsetX - target.x;
   let diffY = e.offsetY - target.y;
   return Math.sqrt((diffX * diffX) + (diffY * diffY));
 }
 
-// return an String depending on the distances 
+// Esta funcion pasa la informacion de la distancia de los puntos a textos
 let getDistanceHint = distance => {
   if (distance < 30) {
     return "Hirviendo!";
